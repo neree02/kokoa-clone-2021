@@ -1,3 +1,3 @@
 # kokoa clone 2021
 
-learning html.css ! 
+making code is so much fun ! 
