@@ -1,0 +1,16 @@
+.icon-raw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-raw__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+}
+
+.icon-raw__box i {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
