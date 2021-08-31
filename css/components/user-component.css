@@ -1,0 +1,55 @@
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+  margin-right: 13px;
+}
+
+.user-component__name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.user-component__subname {
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}
+
+.user-component__photo--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.fiends-main__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.user-component__column-second {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.user-component__column-time {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
