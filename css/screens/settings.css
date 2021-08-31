@@ -1,0 +1,21 @@
+.settings-ul {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+
+.settings-li {
+  padding: 23px 0px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings-li i {
+  margin-right: 15px;
+  opacity: 0.8;
+}
+
+.settings-li__column:last-child {
+  opacity: 0.7;
+}
